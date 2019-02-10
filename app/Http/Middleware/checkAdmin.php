@@ -21,6 +21,6 @@ class checkAdmin
         {
             return $next($request);
         }
-        return ('/');
+        return ('/login');
     }
 }
